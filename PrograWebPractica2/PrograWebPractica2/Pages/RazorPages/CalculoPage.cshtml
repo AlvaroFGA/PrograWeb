@@ -1,0 +1,37 @@
+﻿@page
+@model PrograWebPractica2.Pages.RazorPages.CalculoPageModel
+@{
+}
+<h1>Calculos</h1>
+<form method="post">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">PRODUCTO</th>
+                <th scope="col">CANTIDAD</th>
+                <th scope="col">P/U</th>
+                <th scope="col">SUBTOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var producto in Model.ProductosFiltro){
+                
+                <tr>
+                    <td>@producto.Nombre</td>
+                    <td>@producto.Cantidad</td>
+                    <td>@producto.Precio</td> 
+                    <td>@(producto.Precio * producto.Cantidad)</td>
+                </tr>
+                }
+            }
+            <tr>
+                <td colspan="3">TOTAL</td>
+                <td>Bs.- @(Model.CalcularTotal())</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="col-12">
+        <button class="btn btn-primary" type="submit" formaction="ejemplo">Enviar Resumen</button>
+    </div>
+</form>
