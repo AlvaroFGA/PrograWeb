@@ -40,7 +40,7 @@ namespace PrograWebPractica2.Pages.RazorPages
             {
                 return Page();
             }
-            //En lugar de index esta la ruta para la pagina RESUMEN
+            //En lugar de index esta la ruta para la pagina RESUMEN y el nombre de las variables que utiliza en lugar de Client_ Productos_ y PrecioTotal
             return RedirectToPage("/Index", new { Cliente_ = Calculo.ClienteCalculo, Productos_= Calculo.ProductosCalculo, PrecioTotal = Calculo.PrecioTotalCalculo });
         }
     }
