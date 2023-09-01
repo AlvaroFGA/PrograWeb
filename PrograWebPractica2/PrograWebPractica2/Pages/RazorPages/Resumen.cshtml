@@ -1,0 +1,81 @@
+﻿@page
+@model sistema_ventas.Pages.Paginas.ResumenModel
+@{
+}
+<div class="accordion-body">
+    <table width="2500">
+        <tr >
+            <td><h1>RESUMEN</h1></td>
+
+            <td><h3><label class="form.label">FECHA:    @DateTime.Now</label> </h3></td>
+        </tr>
+    </table>
+
+</div>
+
+<div class="accordion-body">
+
+    <table width="90%" align="center">
+        <tr>
+            <td><h3><label class="form.label">Nombre Completo</label></h3></td>
+            <td>
+                <h4>@Model.nombre @Model.apellido</h4>
+            </td>
+        </tr>
+        <tr>
+            <td><h3><label class="form.label">NIT</label></h3></td>
+            <td>
+                <h4>@Model.ci </h4>
+            </td>
+        </tr>
+        <tr>
+            <td><h3><label class="form.label">Total</label></h3</td>
+            <td>
+                <h4>@Model.total </h4>
+            </td>
+        </tr>
+        <tr>
+            <td><h3><label class="form.label">Descuento</label></h3</td>
+            <td>
+                
+                @if (Model.total >= 0 && Model.total <= 100){<h4>10%</h4>}
+                @if (Model.total > 100 && Model.total <= 200){<h4>40%</h4>}
+                @if (Model.total > 200){<h4>70%</h4>}                
+            </td>
+        </tr>
+        <tr>
+            <td><h3><label class="form.label">Total a Pagar</label></h3</td>
+            <td>
+                
+                @if (Model.total >= 0 && Model.total <= 100){
+                    double a = Model.total - (Model.total * 0.1);
+                    <h4>@a</h4>}
+                @if (Model.total > 100 && Model.total <= 200)
+                {
+                    double a = Model.total - (Model.total * 0.4);
+                    <h4>@a</h4>    
+                }
+                @if (Model.total > 200)
+                {
+                    double a = Model.total - (Model.total * 0.7);
+                    <h4>@a</h4>    
+                }                
+            </td>
+        </tr>
+    </table>
+    </div>
+
+    <form method="post">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <button class="btn btn-primary" type="submit" asp-page="/Index">VOLVER</button>
+        </div>
+    </form>
+@*     <div class="align-bottom">
+        <form method="post">
+        <div class="d-grid gap-2 d-md-flex align-bottom">
+            <button class="btn btn-primary" type="submit" >IMPRIMIR</button>
+        </div>
+    </form>
+    </div> *@
+
+    
