@@ -28,3 +28,33 @@ D:\RepositoriosParaProgramar\C#\ProyectoWebVentas\PrograWeb\PrograWebPractica2\P
 D:\RepositoriosParaProgramar\C#\ProyectoWebVentas\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\PrograWebPractica2.pdb
 D:\RepositoriosParaProgramar\C#\ProyectoWebVentas\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\PrograWebPractica2.genruntimeconfig.cache
 D:\RepositoriosParaProgramar\C#\ProyectoWebVentas\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\ref\PrograWebPractica2.dll
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\PrograWebPractica2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\PrograWebPractica2.AssemblyInfoInputs.cache
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\PrograWebPractica2.AssemblyInfo.cs
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\PrograWebPractica2.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\PrograWebPractica2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\PrograWebPractica2.RazorAssemblyInfo.cache
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\PrograWebPractica2.RazorAssemblyInfo.cs
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\PrograWebPractica2.dll
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\refint\PrograWebPractica2.dll
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\PrograWebPractica2.pdb
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\bin\Debug\net6.0\appsettings.json
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\bin\Debug\net6.0\PrograWebPractica2.staticwebassets.runtime.json
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\bin\Debug\net6.0\PrograWebPractica2.exe
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\bin\Debug\net6.0\PrograWebPractica2.deps.json
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\bin\Debug\net6.0\PrograWebPractica2.runtimeconfig.json
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\bin\Debug\net6.0\PrograWebPractica2.dll
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\bin\Debug\net6.0\PrograWebPractica2.pdb
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\staticwebassets\msbuild.PrograWebPractica2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\staticwebassets\msbuild.build.PrograWebPractica2.props
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.PrograWebPractica2.props
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.PrograWebPractica2.props
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\scopedcss\bundle\PrograWebPractica2.styles.css
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\scopedcss\projectbundle\PrograWebPractica2.bundle.scp.css
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\PrograWebPractica2.genruntimeconfig.cache
+C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\obj\Debug\net6.0\ref\PrograWebPractica2.dll

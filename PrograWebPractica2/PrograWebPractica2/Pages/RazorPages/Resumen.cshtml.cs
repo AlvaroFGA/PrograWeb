@@ -1,32 +1,35 @@
+using FiltroCalculo.Clases;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using sistema_ventas.Clases;
 
 namespace sistema_ventas.Pages.Paginas
 {
     public class ResumenModel : PageModel
     {
+        //[BindProperty(SupportsGet = true)]
+        //public Cliente ClienteResumen { get; set; }
         [BindProperty(SupportsGet = true)]
-        public string nombre { get; set; }
+        public string nombreR { get; set; }
         [BindProperty(SupportsGet = true)]
-        public string apellido { get; set; }
+        public string apellidoR { get; set; }
         [BindProperty(SupportsGet = true)]
-        public int ci { get; set; }
-        [BindProperty(SupportsGet = true)]
-        public int total { get; set; }
+        public int ciR { get; set; }
+        public double total { get; set; }
+        public double descuento { get; set; }
+
         public void OnGet()
         {
-            if (string.IsNullOrEmpty(nombre))
+            if (string.IsNullOrEmpty(nombreR))
             {
-                nombre = "Gregorio";
+                nombreR = "Gregorio";
             }
-            if (string.IsNullOrEmpty(apellido))
+            if (string.IsNullOrEmpty(apellidoR))
             {
-                apellido = "Dávila";
+                apellidoR = "Dávila";
             }
-            if (int.Equals(ci,0))
+            if (int.Equals(ciR, 0))
             {
-                ci = 156325;
+                ciR = 156325;
             }
             if (int.Equals(total, 0))
             {
@@ -34,6 +37,5 @@ namespace sistema_ventas.Pages.Paginas
             }
         }
        
-        
     }
 }
