@@ -1,0 +1,93 @@
+﻿@page
+@model PrograWebPractica2.Pages.RazorPages.DatosModel
+@{
+}
+<style>
+	.title{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.btn_enviar{
+		width: 100%;
+	}
+	.btn_enviar .btn{
+		margin-top: 20px;
+		width: 75%;
+	}
+</style>
+<h1 class="text-center text-black-50 title">Inserte sus datos</h1>
+<div class="mx-5 container">
+	<div class="row container">
+		<div class="col-2">
+		</div>
+		<div class="col-7">
+			<form method="post" class="row g-3">
+				<div class="col-md-4 mb-3">
+					<label for="Nombre" class="form-label">Nombre</label>
+					<div class="input-group">
+						<div class="input-group-text">Nom</div>
+						<input type="text" class="form-control" placeholder="Nombre" asp-for="ClienteN.Nombre" required/>
+					</div>
+				</div>
+				<div class="col-md-4 mb-3">
+					<label for="Nombre" class="form-label">Apellido</label>
+					<div class="input-group">
+						<div class="input-group-text">Nom</div>
+						<input type="text" class="form-control" placeholder="Nombre" asp-for="ClienteN.Apellido" required/>
+					</div>
+				</div>
+				<div class="col-md-4 mb-3">
+					<label for="NIT" class="form-label">NIT</label>
+					<div class="input-group">
+						<div class="input-group-text">NIT</div>
+						<input type="number" class="form-control"placeholder="NIT" asp-for="ClienteN.CiNit"  required />
+					</div>
+				</div>
+
+				<!--Pedido-->
+				@{
+					int l = 0;
+					foreach (var producto in Model.Productos)
+					{
+						
+						<div class="col-4 mb-4">
+							<label class="form-label">Material</label>
+								<!-- Si se requiere mas optiones aniadir-->
+								@{
+								<input type="text" value="@producto.Nombre" id="precio_unitario" asp-for="@Model.Productos[l].Nombre" readonly>
+								}
+						</div>
+						<div class="col-md-3 mb-4">
+							<label class="form-label">Cantidad</label>
+							<select class="form-select" aria-label="cantidad" asp-for="@Model.Productos[l].Cantidad">
+								<!--Si se requiere mas opciones aniadir-->
+								@{
+									for (int i = 0; i < 10; i++)
+									{
+										<option value="@i">@i</option>
+									}
+								}
+							</select>
+						</div>
+						<div class="col-3 mb-4">
+							<label class="form-label">Unitario</label>
+								@{
+									<input type="number" value="@producto.Precio" id="precio_unitario" asp-for="@Model.Productos[l].Precio" readonly>
+							}
+						</div>
+						l++;
+					}
+
+				}
+
+				<div class="btn_enviar">
+					<button type="submit" class="btn-primary btn">Enviar</button>
+				</div>
+
+			</form>
+		</div>
+		<div class="col-2">
+
+		</div>
+	</div>
+</div>

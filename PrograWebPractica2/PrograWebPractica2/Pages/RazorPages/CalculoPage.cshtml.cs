@@ -8,29 +8,47 @@ namespace PrograWebPractica2.Pages.RazorPages
 {
     public class CalculoPageModel : PageModel
     {
-        [BindProperty(SupportsGet = true)]
         public Cliente ClienteFiltrto { get; set; } = new Cliente() { Nombre="Pepe", Apellido="Martinez", CiNit=1234567};
-        [BindProperty(SupportsGet = true)]
-        public Producto[] ProductosFiltro { get; set; } = new Producto[]
-        {
-            new Producto {Nombre = "Dulces", Precio  = 2.5, Cantidad = 10},
-            new Producto {Nombre = "Papas", Precio  = 7.5, Cantidad = 3},
-            new Producto {Nombre = "Gaseosa", Precio  = 15, Cantidad = 1},
-            new Producto {Nombre = "Vodka", Precio  = 35, Cantidad = 4}
-        };
+        public Producto[] ProductosFiltro { get; set; }
         public  int PrecioTotal { get; set; }
         //lo de arriba son las variables que recibira la pagina de calculo
 
         public CalculoModel Calculo { get; set; }
-        public void OnGet()
+        public void OnGet(string cliente, string productos)
         {
-        }
+            List<Producto> pro = new List<Producto>();
+            string[] campos = cliente.Split('/');
+            ClienteFiltrto.Nombre = campos[0];
+            ClienteFiltrto.Apellido = campos[1];
+            ClienteFiltrto.CiNit = Convert.ToInt32(campos[2]);
+
+            string[] lineproduc = productos.Split("|");
+            for(int i = 0; i < lineproduc.Length; i++)
+            {
+                string[] datosPro = lineproduc[i].Split("/");
+                Producto tempPro;
+                if (datosPro.Length == 3)
+                {
+                    tempPro = new Producto { Nombre = datosPro[0], Precio = Convert.ToDouble(datosPro[1]), Cantidad = Convert.ToInt32(datosPro[2]) };
+                    if (tempPro.Cantidad != 0)
+                    {
+                        pro.Add(tempPro);
+                    }
+                }
+            }
+			Producto[] productosFiltro = new Producto[pro.Count];
+            for(int i = 0; i < pro.Count; i++)
+            {
+                productosFiltro[i] = pro[i];
+            }
+            ProductosFiltro = productosFiltro;
+		}
         public double CalcularTotal()
         {
             double total = 0;
             foreach (var producto in ProductosFiltro)
             {
-                total += producto.Precio;
+                total += producto.Precio * producto.Cantidad;
             }
             return total;
         }

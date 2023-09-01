@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO IDEAPAD\\Repositorio Local\\PrograWeb\\PrograWebPractica2\\PrograWebPractica2\\PrograWebPractica2.csproj": {}
+    "D:\\RepositoriosParaProgramar\\C#\\ProyectoWebVentas\\PrograWeb\\PrograWebPractica2\\PrograWebPractica2\\PrograWebPractica2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO IDEAPAD\\Repositorio Local\\PrograWeb\\PrograWebPractica2\\PrograWebPractica2\\PrograWebPractica2.csproj": {
+    "D:\\RepositoriosParaProgramar\\C#\\ProyectoWebVentas\\PrograWeb\\PrograWebPractica2\\PrograWebPractica2\\PrograWebPractica2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO IDEAPAD\\Repositorio Local\\PrograWeb\\PrograWebPractica2\\PrograWebPractica2\\PrograWebPractica2.csproj",
+        "projectUniqueName": "D:\\RepositoriosParaProgramar\\C#\\ProyectoWebVentas\\PrograWeb\\PrograWebPractica2\\PrograWebPractica2\\PrograWebPractica2.csproj",
         "projectName": "PrograWebPractica2",
-        "projectPath": "C:\\Users\\LENOVO IDEAPAD\\Repositorio Local\\PrograWeb\\PrograWebPractica2\\PrograWebPractica2\\PrograWebPractica2.csproj",
-        "packagesPath": "C:\\Users\\LENOVO IDEAPAD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO IDEAPAD\\Repositorio Local\\PrograWeb\\PrograWebPractica2\\PrograWebPractica2\\obj\\",
+        "projectPath": "D:\\RepositoriosParaProgramar\\C#\\ProyectoWebVentas\\PrograWeb\\PrograWebPractica2\\PrograWebPractica2\\PrograWebPractica2.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "D:\\RepositoriosParaProgramar\\C#\\ProyectoWebVentas\\PrograWeb\\PrograWebPractica2\\PrograWebPractica2\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO IDEAPAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
