@@ -3,7 +3,7 @@
 @{
 }
 <h1>Calculos</h1>
-<form method="post">
+<form method="post" asp-page="/RazorPages/Resumen">
     <table class="table table-striped">
         <thead>
             <tr>
@@ -31,7 +31,16 @@
             </tr>
         </tbody>
     </table>
+    <input type="hidden" name="nombre", value="@Model.ClienteFiltrto.Nombre"/>
+
+    <input type="hidden" name="apellido" , value="@Model.ClienteFiltrto.Apellido" />
+
+    <input type="hidden" name="ci" , value="@Model.ClienteFiltrto.CiNit" />
+
+    <input type="hidden" name="total" , value="@Model.CalcularTotal()" />
     <div class="col-12">
-        <button class="btn btn-primary" type="submit">Enviar Resumen</button>
+        <button class="btn btn-primary" type="submit" asp-route-nombreR="@Model.ClienteFiltrto.Nombre" 
+        asp-route-apellidoR="@Model.ClienteFiltrto.Apellido" asp-route-ciR="@Model.ClienteFiltrto.CiNit" 
+        asp-route-totalV="@Model.CalcularTotal().ToString()" >Enviar Resumen</button>
     </div>
 </form>

@@ -8,7 +8,9 @@ namespace PrograWebPractica2.Pages.RazorPages
 {
     public class CalculoPageModel : PageModel
     {
+        [BindProperty]
         public Cliente ClienteFiltrto { get; set; } = new Cliente() { Nombre="Pepe", Apellido="Martinez", CiNit=1234567};
+        [BindProperty]
         public Producto[] ProductosFiltro { get; set; }
         public  int PrecioTotal { get; set; }
         //lo de arriba son las variables que recibira la pagina de calculo
@@ -59,7 +61,8 @@ namespace PrograWebPractica2.Pages.RazorPages
                 return Page();
             }
             //En lugar de index esta la ruta para la pagina RESUMEN y el nombre de las variables que utiliza en lugar de Client_ Productos_ y PrecioTotal
-            return RedirectToPage("/RazorPages/Resumen", new { nombreR= ClienteFiltrto.Nombre,apellidoR = ClienteFiltrto.Apellido, ciR = ClienteFiltrto.CiNit, PrecioTotal = Calculo.PrecioTotalCalculo });
+            return RedirectToPage("/RazorPages/Resumen", new { nombreR= ClienteFiltrto.Nombre, apellidoR = ClienteFiltrto.Apellido, ciR = ClienteFiltrto.CiNit, totalV = CalcularTotal() });
+            //return RedirectToPage("/RazorPages/Resumen");
         }
     }
 }

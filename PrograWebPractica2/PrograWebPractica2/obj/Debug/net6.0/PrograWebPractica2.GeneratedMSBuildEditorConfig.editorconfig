@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PrograWebPractica2
 build_property.RootNamespace = PrograWebPractica2
-build_property.ProjectDir = C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2\
+build_property.ProjectDir = D:\RepositoriosParaProgramar\C#\PrograWeb\PrograWebPractica2\PrograWebPractica2\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\LENOVO IDEAPAD\Repositorio Local\PrograWeb\PrograWebPractica2\PrograWebPractica2
+build_property.MSBuildProjectDirectory = D:\RepositoriosParaProgramar\C#\PrograWeb\PrograWebPractica2\PrograWebPractica2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/LENOVO IDEAPAD/Repositorio Local/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/Error.cshtml]
+[D:/RepositoriosParaProgramar/C\#/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO IDEAPAD/Repositorio Local/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/Index.cshtml]
+[D:/RepositoriosParaProgramar/C\#/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO IDEAPAD/Repositorio Local/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/Privacy.cshtml]
+[D:/RepositoriosParaProgramar/C\#/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO IDEAPAD/Repositorio Local/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/RazorPages/CalculoPage.cshtml]
+[D:/RepositoriosParaProgramar/C\#/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/RazorPages/CalculoPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmF6b3JQYWdlc1xDYWxjdWxvUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO IDEAPAD/Repositorio Local/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/RazorPages/Datos.cshtml]
+[D:/RepositoriosParaProgramar/C\#/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/RazorPages/Datos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmF6b3JQYWdlc1xEYXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO IDEAPAD/Repositorio Local/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/RazorPages/Resumen.cshtml]
+[D:/RepositoriosParaProgramar/C\#/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/RazorPages/Resumen.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmF6b3JQYWdlc1xSZXN1bWVuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO IDEAPAD/Repositorio Local/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/RepositoriosParaProgramar/C\#/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO IDEAPAD/Repositorio Local/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/_ViewImports.cshtml]
+[D:/RepositoriosParaProgramar/C\#/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO IDEAPAD/Repositorio Local/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/_ViewStart.cshtml]
+[D:/RepositoriosParaProgramar/C\#/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO IDEAPAD/Repositorio Local/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/Shared/_Layout.cshtml]
+[D:/RepositoriosParaProgramar/C\#/PrograWeb/PrograWebPractica2/PrograWebPractica2/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-or4cl47yc9

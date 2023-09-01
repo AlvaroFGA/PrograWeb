@@ -8,33 +8,36 @@ namespace sistema_ventas.Pages.Paginas
     {
         //[BindProperty(SupportsGet = true)]
         //public Cliente ClienteResumen { get; set; }
-        [BindProperty(SupportsGet = true)]
+       
+        [BindProperty(SupportsGet =true)]
         public string nombreR { get; set; }
         [BindProperty(SupportsGet = true)]
         public string apellidoR { get; set; }
         [BindProperty(SupportsGet = true)]
-        public int ciR { get; set; }
-        public double total { get; set; }
+        public string ciR { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public string totalV { get; set; }
         public double descuento { get; set; }
 
+        public double total { get; set; }
         public void OnGet()
         {
             if (string.IsNullOrEmpty(nombreR))
             {
-                nombreR = "Gregorio";
+                nombreR = "Gregorio Dávila";
             }
-            if (string.IsNullOrEmpty(apellidoR))
+            
+
+            if (int.Equals(Convert.ToInt32(ciR), 0))
             {
-                apellidoR = "Dávila";
+                ciR = "6745765364";
             }
-            if (int.Equals(ciR, 0))
+            if (int.Equals(Convert.ToInt32(totalV), 0))
             {
-                ciR = 156325;
+                totalV = "1000";
+                total = Convert.ToInt32(totalV);
             }
-            if (int.Equals(total, 0))
-            {
-                total = 500;
-            }
+
         }
        
     }
