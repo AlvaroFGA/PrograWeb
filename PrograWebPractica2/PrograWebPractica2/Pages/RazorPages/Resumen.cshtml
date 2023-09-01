@@ -38,28 +38,29 @@
             <td><h3><label class="form.label">Descuento</label></h3</td>
             <td>
                 
-                @if (Model.total >= 0 && Model.total <= 100){<h4>10%</h4>}
-                @if (Model.total > 100 && Model.total <= 200){<h4>40%</h4>}
-                @if (Model.total > 200){<h4>70%</h4>}                
+                @if (Model.total >= 0 && Model.total <= 100){<h4>10%</h4>
+                    Model.descuento = 0.1; 
+                }
+                @if (Model.total > 100 && Model.total <= 200){<h4>40%</h4>
+                    Model.descuento = 0.4;
+                }
+                @if (Model.total > 200){<h4>70%</h4>
+                    Model.descuento = 0.7;
+                } 
+                              
             </td>
         </tr>
         <tr>
             <td><h3><label class="form.label">Total a Pagar</label></h3</td>
             <td>
-                
-                @if (Model.total >= 0 && Model.total <= 100){
-                    double a = Model.total - (Model.total * 0.1);
-                    <h4>@a</h4>}
-                @if (Model.total > 100 && Model.total <= 200)
-                {
-                    double a = Model.total - (Model.total * 0.4);
-                    <h4>@a</h4>    
-                }
-                @if (Model.total > 200)
-                {
-                    double a = Model.total - (Model.total * 0.7);
-                    <h4>@a</h4>    
-                }                
+                @{
+                    desc(Model.descuento);
+                     void desc(double d)
+                     {
+                         double a= Model.total - (Model.total * d);
+                         <h4>@a</h4>
+                     }
+                }      
             </td>
         </tr>
     </table>
